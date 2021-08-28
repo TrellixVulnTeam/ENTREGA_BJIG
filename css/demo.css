@@ -1,3 +1,4 @@
+/*POR CORREGIR*/
 .tituloDelIndex {
   color: white;
   font-weight: bold;
@@ -18,17 +19,10 @@
   #slogan {
     font-size: 20px; } }
 
-
 .grillaCarrusel {
   display: grid;
-  grid-template-areas: "none slogan slogan"
- "logo titulo titulo"
- "logo intro intro";
+  grid-template-areas: "none slogan slogan" "logo titulo titulo" "logo intro intro";
   margin-bottom: 100px; }
-
-
-
-
 
 /*Transformaciones*/
 .transfFoto1 {
@@ -38,9 +32,9 @@
   transform: translate(50%); }
 
 .transfFoto3 {
-  transform: translate(100%)}
+  transform: translate(100%); }
 
-.TituloPaginas {
+h1 {
   text-align: center;
   color: rgba(233, 135, 151, 0.788);
   font-weight: bold;
@@ -48,11 +42,11 @@
   text-shadow: 3px 3px 4px #ad08ad; }
 
 @media screen and (max-width: 1024px) {
-  .TituloPaginas  {
+  h1 {
     font-size: 30px; } }
 
 @media screen and (max-width: 480px) {
-  .TituloPaginas  {
+  h1 {
     font-size: 10px; } }
 
 /**/
@@ -166,9 +160,7 @@ nav div {
 /*GRIDS*/
 .grillaAreas {
   display: grid;
-  grid-template-areas: "none slogan slogan"
- "logo titulo titulo"
- "logo intro intro";
+  grid-template-areas: "none slogan slogan" "logo titulo titulo" "logo intro intro";
   background-image: linear-gradient(#ce5cce, pink, #e493a0);
   width: 80%;
   height: 100%;
@@ -183,9 +175,6 @@ nav div {
 #img {
   grid-area: logo;
   margin-left: 100px; }
-
-
-
 
 #slogan {
   grid-area: slogan; }
@@ -336,6 +325,7 @@ h4 {
   text-align: center; }
 
 .videoNosotros {
+  display: flex;
   flex-wrap: wrap;
   justify-content: center; }
 
@@ -344,7 +334,7 @@ h4 {
 .botones {
   border: #4cc74c 8px dotted;
   background-color: rgba(233, 135, 151, 0.788);
-  color: #0a5313; }
+  color: #ad08ad; }
 
 .botones-profesional {
   width: 500px;
@@ -438,8 +428,7 @@ nav ul li {
 
 table {
   background-image: url("fondorepeat.jpg");
-  background-repeat: repeat-x,
- repeat-y;
+  background-repeat: repeat-x, repeat-y;
   color: black; }
 
 img {
@@ -493,6 +482,5 @@ footer p {
   flex-wrap: wrap;
   justify-content: center;
   flex-direction: column-reverse; }
-  
 
 /**/
